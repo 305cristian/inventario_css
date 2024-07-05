@@ -11,11 +11,11 @@ import java.util.List;
  * @Fecha de Creación 5 jul 2024
  * @author CRISTIAN R. PAZ
  */
-public class InventarioManager {
+public class InventoryManagerp {
 
     private final List<Product> products;
 
-    public InventarioManager() {
+    public InventoryManagerp() {
         this.products = new ArrayList<>();
     }
 
@@ -35,6 +35,8 @@ public class InventarioManager {
         }
         return null;
     }
+    
+    
 
     public void updateProductQuantity(String productId, int quantity) {
         Product product = findProductById(productId);

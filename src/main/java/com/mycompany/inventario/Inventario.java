@@ -3,7 +3,7 @@
  */
 package com.mycompany.inventario;
 
-import com.example.inventory.InventarioApp;
+import com.example.inventory.InventarioManagerp;
 
 /**
  *
@@ -12,6 +12,6 @@ import com.example.inventory.InventarioApp;
 public class Inventario {
 
     public static void main(String[] args) {
-        InventarioApp.main(args);
+        InventarioManagerp.main(args);
     }
 }

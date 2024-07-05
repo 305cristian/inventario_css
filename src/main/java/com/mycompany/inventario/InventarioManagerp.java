@@ -4,7 +4,7 @@
  */
 package com.example.inventory;
 
-import com.mycompany.inventario.InventarioManager;
+import com.mycompany.inventario.InventoryManagerp;
 import com.mycompany.inventario.Product;
 import javafx.application.Application;
 import javafx.beans.property.SimpleObjectProperty;
@@ -16,9 +16,9 @@ import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class InventarioApp extends Application {
+public class InventarioManagerp extends Application {
 
-    private InventarioManager inventoryManager = new InventarioManager();
+    private InventoryManagerp inventoryManager = new InventoryManagerp();
     private TableView<Product> table = new TableView<>();
     private ObservableList<Product> productList;
 
